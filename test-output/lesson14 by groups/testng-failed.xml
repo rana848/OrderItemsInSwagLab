@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [lesson14 by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-sorting(failed)">
+    <groups>
+      <run>
+        <include name="sorting"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="lesson14.SwagLabLesson">
+        <methods>
+          <include name="sorting_test"/>
+        </methods>
+      </class> <!-- lesson14.SwagLabLesson -->
+    </classes>
+  </test> <!-- GRP-sorting(failed) -->
+</suite> <!-- Failed suite [lesson14 by groups] -->
